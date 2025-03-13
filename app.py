@@ -14,7 +14,7 @@ connection_string = (
     "Connection Timeout=30;"
 )
 
-# Function to fetch data from the database
+# Function to fetch data from the database -- returns a DataFrame
 def fetch_data():
     try:
         conn = pyodbc.connect(connection_string)
