@@ -20,7 +20,7 @@ def fetch_data():
         return pd.DataFrame()
 
 # Streamlit app
-st.title("MQTT Processed Data Dashboard")
+st.title("MQTT Processed Data Dashboard - Streamlit App")
 
 # Fetch and display data
 data = fetch_data()
