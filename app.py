@@ -35,7 +35,7 @@ if not data.empty:
     st.write("### MQTT Processed Data")
     st.dataframe(data)
 
-    # Display charts or statistics
+    # Display charts or statistics ytest
     st.write("### Data Statistics")
     st.write(data.describe())
 
@@ -46,4 +46,4 @@ if not data.empty:
         st.write(f"### Histogram for {selected_column}")
         st.bar_chart(data[selected_column])
 else:
-    st.warning("No data found in the database.")
+    st.warning("No data found in the database.") 
